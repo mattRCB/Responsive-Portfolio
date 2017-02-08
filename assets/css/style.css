@@ -1,0 +1,460 @@
+* {
+	margin: 0;
+}
+
+html {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+	overflow: scroll;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 18px;
+	border-bottom: 1px #cccccc solid;
+	margin-bottom: 18px;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 2px #dddddd solid;
+	width: 100%;
+	height: 88px;
+}
+
+nav {
+	float: right;
+	display: inline-flex;
+	color: #777777;
+	margin-right: 10px;
+}
+
+nav a {
+	color: #777777;
+	text-decoration: none;
+	padding: 14px 12px 14px 12px;
+	border-radius: 2px;
+	height: 30px;
+	margin-top: 15px;
+	line-height: 32px;
+}
+
+nav a:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	opacity: .6;
+	height: 30px;
+	margin-top: 15px;
+}
+
+nav a.index {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	height: 30px;
+	margin-top: 15px;
+}
+
+nav a.contact {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	height: 30px;
+	margin-top: 15px;
+}
+
+nav a.portfolio {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.nav-spacer {
+	height: 16px;
+	margin: 36px 6px 30px 6px;
+	border-right: 1px #cccccc solid;
+}
+
+
+.wrapper {
+	min-height: 100%;
+
+/*	height: 100%;  */
+	margin: 0 auto -90px;
+
+}
+
+.container {
+	width: 100%;
+}
+.centered-content {
+/*	z-index: 1; */
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+/*
+.social {
+	width: 64px;
+	height: 64px;
+}  */
+
+#social-spacer {
+	position: relative;
+	left: -4px;
+}
+
+#stack-logo {
+	width: 58px;
+	height: 58px;
+	position: relative;
+	bottom: 2.5px;
+
+}
+
+#head {
+	width:100%;
+	position: relative;
+	top: -90px;
+
+}
+
+#main-logo {
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	width: 242px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#content-heading {
+	border-bottom: 3px #dddddd solid;
+	padding-bottom: 28px;
+	margin-bottom: 20px;
+	width: 590px;
+}
+
+#main-content {
+	float: left;
+	background-color: #ffffff;
+	width: 600px;
+	border: 1px #dddddd solid;
+	line-height: 34px;
+	padding: 24px;
+	position: relative;
+	top: -60px;
+}
+
+#main-content h1, p, img {
+	margin-left: 6px;
+}
+
+#main-content p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #777777;
+	margin-right: 8px;
+}
+
+#headshot {
+	float: left;
+	margin-right: 24px;
+	width: 200px;
+	margin-top: 8px;
+}
+
+#sidebar {
+	float: right;
+	background-color: #ffffff;
+	border: 1px #dddddd solid;
+	padding: 28px;
+	position: relative;
+	top: -60px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	line-height: 90px;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #666666;
+	border-top: 8px #4aaaa5 solid;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.push {
+	clear: both;
+	height: 90px;
+}
+
+
+/* styles for contact.html */
+form {
+	margin-left: 6px;
+}
+
+form input {
+	line-height: 36px;
+	margin-bottom: 12px;
+}
+
+label {
+	position: relative;
+	top: 3px;
+}
+
+form input[placeholder="John Smith"], [placeholder="example@gmail.com"] {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#name, #email, #message {
+	width: 95%;
+}
+
+#message {
+	height: 128px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+textarea {
+	resize: vertical;
+	border-color: #dddddd;
+	max-height: 180px;
+}
+
+form input[type="submit"] {
+	display: block;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	font-size: 16px;
+	margin-top: 8px;
+	padding: 2px 24px 2px 24px;
+}
+
+
+/* styles for portfolio.html */
+.gallery-left {
+	position: relative;
+	float: left;
+	margin-top: 18px;
+}
+
+.gallery-right {
+	position: relative;
+	float: right;
+	right: 8px;
+	margin-top: 18px;
+}
+
+.portfolio-heading {
+	position: absolute;
+	bottom: 20px;
+	background-color: #4aaaa5;
+	width: 281px;
+	margin-left: 6px;
+	text-align: center;
+	color: #ffffff;
+	padding: 8px 0px 8px 0px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.portfolio-pic {
+	width: 100%;
+	height: 100%;
+}
+
+/* responsive @media screen css */
+@media screen and (max-width: 980px) {
+    #content-heading {
+		border-bottom: 3px #dddddd solid;
+		padding-bottom: 28px;
+		margin-bottom: 20px;
+		width: 300px;
+	}
+	#headshot {
+		float: left;
+		margin-right: 24px;
+		width: 300px;
+		height: 200px;
+		margin-top: 8px;
+	}
+	#main-content {
+		float: left;
+		background-color: #ffffff;
+		width: 320px;
+		border: 1px #dddddd solid;
+		line-height: 34px;
+		padding: 24px;
+		position: relative;
+		top: -60px;
+	}
+	.centered-content {
+		width: 100%;
+		max-width: 670px;
+		margin: 0 auto;
+		clear: both;
+	}
+/* styles for Portfolio */
+	.gallery-right, .gallery-left {
+		float: left;
+		right: 0;
+		margin: 18px 0 0 0;
+	}
+	.portfolio-pic {
+		width: 300px;
+		height: 100%;
+	}
+	.portfolio-heading {
+		width: 300px;
+	}
+/* styles for contact */
+	#name, #email, #message {
+	width: 275px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    #main-content {
+        width: 620px;
+    }
+    #content-heading {
+		width: 600px;
+    }
+    #main-content p {
+		line-height: 36px;
+    }
+    #sidebar {
+		float: left;
+		background-color: #ffffff;
+		border: 1px #dddddd solid;
+		padding: 28px;
+		margin-top: 24px;
+		width: 612px;
+	}
+	#sidebar h2 {
+		text-align: left;
+		width: 602px;
+	}
+/* styles for contact */
+	#name, #email, #message {
+		width: 578px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	#head {
+		background-color: #ffffff;
+		float: left;
+		position: relative;
+		border-bottom: 2px #dddddd solid;
+		width: 640px;
+		left: -48px;
+	}
+
+	#main-logo {
+		clear: both;
+		position: relative;
+		top: -82px;
+		width: 100%;
+	}
+	nav {
+		clear: both;
+		position: relative;
+		top: 80px;
+		left: 48px;
+		width: 100%;
+	}
+	nav a {
+		padding: 14px 64px 14px 64px;
+	}
+	.wrapper {
+		max-width: 640px;
+		width: 100%;
+		position: static;
+	}
+    #main-content {
+        width: 500px;
+    }
+    #main-content p {
+		line-height: 28px;
+		font-size: 16px;
+    }
+    #content-heading {
+		width: 484px;
+    }
+
+    #sidebar {
+        width: 492px;
+    }
+    #sidebar h2 {
+		text-align: left;
+		width: 484px;
+	}
+    .centered-content {
+		width: 100%;
+		max-width: 550px;
+		margin: 0 auto;
+		clear: both;
+	}
+	#headshot {
+		float: left;
+		margin-right: 24px;
+		width: 484px;
+		height: 340px;
+		margin-top: 8px;
+		margin-bottom: 12px;
+	}
+/* styles for Portfolio */
+
+	.gallery-right, .gallery-left {
+		float: left;
+		right: 0;
+		margin: 18px 0 0 0;
+	}
+	.portfolio-pic {
+		width: 484px;
+		height: 100%;
+	}
+	.portfolio-heading {
+		width: 484px;
+	}
+/* styles for contact */
+	#name, #email, #message {
+		width: 460px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
